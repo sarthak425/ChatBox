@@ -15,7 +15,7 @@ public class ChatController {
         return rawJson;
     }
 
-    @GetMapping("/")
+    @GetMapping("/chat")
     public String loadChatPage() {
         return "chat"; // loads chat.html
     }
