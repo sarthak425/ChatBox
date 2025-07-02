@@ -1,4 +1,5 @@
 💬 Real-Time Chat Application
+
 This project is a simple real-time chat application built with Spring Boot, WebSockets, SockJS, STOMP, and Bootstrap for frontend styling. It allows users to exchange messages instantly in a responsive web interface.
 
 🔧 Technologies Used
@@ -30,21 +31,35 @@ Cross-origin support for mobile testing.
 Can be accessed via public tunneling services like Ngrok.
 
 📁 Project Structure
+
 bash
 Copy
 Edit
+
 chatBox/
+
 ├── config/                 # WebSocket configuration class
+
 │   └── WebSocke.java
+
 ├── controller/             # Spring controller for routing and messaging
+
 │   └── ChatController.java
+
 ├── model/                  # Model class for messages
+
 │   └── ChatMessage.java
+
 ├── resources/
+
 │   ├── templates/
+
 │   │   └── chat.html       # Frontend chat interface
+
 │   └── application.properties
+
 └── pom.xml                 # Maven configuration
+
 🚀 How to Run
 Clone the repository:
 
